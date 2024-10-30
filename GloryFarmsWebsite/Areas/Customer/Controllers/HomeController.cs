@@ -2,8 +2,9 @@ using System.Diagnostics;
 using GloryFarmsWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GloryFarmsWebsite.Controllers
+namespace GloryFarmsWebsite.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
